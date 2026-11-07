@@ -36,3 +36,10 @@ Abra o arquivo `index.html` em qualquer navegador moderno (Chrome, Edge, Firefox
 - Preços, quilometragens e contatos são **ilustrativos**.
 - Os dados editados no protótipo (estoque, leads, configurações) ficam no **localStorage** do navegador. Limpar o armazenamento do site restaura os dados iniciais.
 - A importação da Webmotors é uma simulação; nenhuma chamada real é feita.
+
+## Plataforma (produto)
+
+O produto real está na pasta [`plataforma/`](plataforma/): aplicação **Laravel 12** (PHP 8.3) com **Livewire 3**, **Filament 3**, **MySQL 8** e testes em **Pest**. Ela implementa o site público, o painel do lojista, a integração desacoplada com a Webmotors (API Site), leads, simulador de financiamento e assistente virtual.
+
+- Instruções de instalação, desenvolvimento e deploy em VPS: [`plataforma/README.md`](plataforma/README.md).
+- O `index.html` da raiz continua sendo o protótipo estático servido pelo GitHub Pages e não é alterado pela plataforma.
