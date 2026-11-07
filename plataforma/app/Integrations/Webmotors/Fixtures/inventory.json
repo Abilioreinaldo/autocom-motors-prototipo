@@ -1,0 +1,101 @@
+[
+  {
+    "external_id": "54810001",
+    "marca": "Chevrolet",
+    "modelo": "Tracker",
+    "versao": "1.2 Turbo Premier (FIXTURE)",
+    "ano_fab": 2022,
+    "ano_mod": 2023,
+    "km": 28400,
+    "preco": 129900,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "carroceria": "SUV",
+    "cor": "Preto",
+    "motor": "1.2 Turbo",
+    "portas": 4,
+    "placa_final": "7",
+    "opcionais": ["Ar-condicionado digital", "Central multimídia", "Câmera de ré", "Teto solar", "Rodas de liga leve"],
+    "descricao": "Anúncio de demonstração sincronizado via API Site (fixture). Dados fictícios.",
+    "fotos": [
+      "https://picsum.photos/seed/wm-54810001-1/1280/800",
+      "https://picsum.photos/seed/wm-54810001-2/1280/800",
+      "https://picsum.photos/seed/wm-54810001-3/1280/800"
+    ],
+    "source_url": "https://www.webmotors.com.br/comprar/chevrolet/tracker/12-turbo-premier/4-portas/2022-2023/54810001"
+  },
+  {
+    "external_id": "54810003",
+    "marca": "Volkswagen",
+    "modelo": "Nivus",
+    "versao": "1.0 200 TSI Highline (FIXTURE)",
+    "ano_fab": 2021,
+    "ano_mod": 2022,
+    "km": 41200,
+    "preco": 118900,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "carroceria": "SUV",
+    "cor": "Branco",
+    "motor": "1.0 TSI",
+    "portas": 4,
+    "placa_final": "2",
+    "opcionais": ["VW Play", "Ar-condicionado", "Sensor de estacionamento", "Controle de estabilidade"],
+    "descricao": "Anúncio de demonstração sincronizado via API Site (fixture). Dados fictícios.",
+    "fotos": [
+      "https://picsum.photos/seed/wm-54810003-1/1280/800",
+      "https://picsum.photos/seed/wm-54810003-2/1280/800"
+    ],
+    "source_url": "https://www.webmotors.com.br/comprar/volkswagen/nivus/10-200-tsi-highline/4-portas/2021-2022/54810003"
+  },
+  {
+    "external_id": "54810021",
+    "marca": "Toyota",
+    "modelo": "Hilux",
+    "versao": "2.8 SRX 4x4 Diesel (FIXTURE)",
+    "ano_fab": 2020,
+    "ano_mod": 2020,
+    "km": 87500,
+    "preco": 229900,
+    "cambio": "Automático",
+    "combustivel": "Diesel",
+    "carroceria": "Picape",
+    "cor": "Prata",
+    "motor": "2.8 Diesel",
+    "portas": 4,
+    "placa_final": "5",
+    "opcionais": ["Tração 4x4", "Bancos em couro", "Capota marítima", "Central multimídia", "Câmera de ré"],
+    "descricao": "Anúncio de demonstração sincronizado via API Site (fixture). Dados fictícios.",
+    "fotos": [
+      "https://picsum.photos/seed/wm-54810021-1/1280/800",
+      "https://picsum.photos/seed/wm-54810021-2/1280/800",
+      "https://picsum.photos/seed/wm-54810021-3/1280/800",
+      "https://picsum.photos/seed/wm-54810021-4/1280/800"
+    ],
+    "source_url": "https://www.webmotors.com.br/comprar/toyota/hilux/28-srx-4x4-diesel/4-portas/2020-2020/54810021"
+  },
+  {
+    "external_id": "54810022",
+    "marca": "Honda",
+    "modelo": "Civic",
+    "versao": "2.0 EXL CVT (FIXTURE)",
+    "ano_fab": 2019,
+    "ano_mod": 2020,
+    "km": 66300,
+    "preco": 119900,
+    "cambio": "CVT",
+    "combustivel": "Flex",
+    "carroceria": "Sedã",
+    "cor": "Cinza",
+    "motor": "2.0",
+    "portas": 4,
+    "placa_final": "9",
+    "opcionais": ["Bancos em couro", "Teto solar", "Central multimídia", "Honda Sensing"],
+    "descricao": "Anúncio de demonstração sincronizado via API Site (fixture). Dados fictícios.",
+    "fotos": [
+      "https://picsum.photos/seed/wm-54810022-1/1280/800",
+      "https://picsum.photos/seed/wm-54810022-2/1280/800"
+    ],
+    "source_url": "https://www.webmotors.com.br/comprar/honda/civic/20-exl-cvt/4-portas/2019-2020/54810022"
+  }
+]
