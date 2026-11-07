@@ -2,11 +2,8 @@
     "$schema": "https://getcomposer.org/schema.json",
     "name": "autocom/plataforma",
     "type": "project",
-    "description": "Plataforma Autocom Motors — site público + painel do lojista (Laravel 12, Livewire 3, Filament 3)",
-    "keywords": [
-        "laravel",
-        "framework"
-    ],
+    "description": "Plataforma Autocom Motors \u2014 site p\u00fablico + painel do lojista (Laravel 12, Livewire 3, Filament 3)",
+    "keywords": ["laravel", "framework"],
     "license": "MIT",
     "require": {
         "php": "^8.3",
@@ -56,7 +53,8 @@
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-            "@php artisan package:discover --ansi"
+            "@php artisan package:discover --ansi",
+            "@php artisan filament:upgrade"
         ],
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force"

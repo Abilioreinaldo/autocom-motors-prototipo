@@ -28,7 +28,7 @@ class BotSession extends Model
         return $this->belongsTo(Lead::class);
     }
 
-    public function append(string $role, string $text, array $extra = []): static
+    public function pushMessage(string $role, string $text, array $extra = []): static
     {
         $messages = $this->messages ?? [];
         $messages[] = array_merge(['role' => $role, 'text' => $text, 'at' => now()->toIso8601String()], $extra);
