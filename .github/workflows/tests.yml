@@ -1,0 +1,30 @@
+name: Plataforma · testes
+
+on:
+  push:
+    branches: [main]
+    paths: ['plataforma/**', '.github/workflows/tests.yml']
+  pull_request:
+    paths: ['plataforma/**']
+
+jobs:
+  pest:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: plataforma
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          extensions: mbstring, intl, gd, zip, pdo_sqlite, sqlite3, bcmath
+          coverage: none
+      - name: Composer
+        run: composer install --no-interaction --prefer-dist --no-progress
+      - name: Preparar app
+        run: |
+          cp .env.example .env
+          php artisan key:generate
+      - name: Pest
+        run: php artisan test --compact
